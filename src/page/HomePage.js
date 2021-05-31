@@ -1,12 +1,13 @@
 import React from "react";
-import Header from "../component/Header";
 import Body from "../component/Body";
+import Header from "../component/Header";
 const HomePage = () => {
-  return;
-  <div>
-    <Header />
-    <Body />
-  </div>;
+  return (
+    <div>
+      <Header />
+      <Body />
+    </div>
+  );
 };
 
 export default HomePage;
