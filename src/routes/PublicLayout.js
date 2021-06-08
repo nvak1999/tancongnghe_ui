@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Switch } from "react-router";
-import Homepage from "../page/Homepage";
+
 import Workpage from "../page/Workpage";
 import Productpage from "../page/Productpage";
 import Customerpage from "../page/Customerpage";
