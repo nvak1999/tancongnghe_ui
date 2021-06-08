@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 const Loginpage = () => {
   return (
-    <div class="login_page">
+    <div className="login_page">
       <div className="header_login">
         <img src="/picture/WEB12.png" alt="" />
         <div className="register">
@@ -12,22 +12,22 @@ const Loginpage = () => {
           </Link>
         </div>
       </div>
-      <div class="box">
+      <div className="box">
         <form>
-          <span class="text-center">login</span>
-          <div class="input-container">
+          <span className="text-center">login</span>
+          <div className="input-container">
             <input type="mail" required="" />
             <label>Email</label>
           </div>
-          <div class="input-container">
+          <div className="input-container">
             <input type="password" required="" />
             <label>Mật khẩu</label>
           </div>
-          <div class="checkbox-container">
+          <div className="checkbox-container">
             <input type="checkbox" required="" />
             <label>Nhớ Mật khẩu</label>
           </div>
-          <button type="button" class="btn">
+          <button type="button" className="btn">
             Đăng nhập
           </button>
         </form>
@@ -37,17 +37,17 @@ const Loginpage = () => {
         <div className="fooder-left">
           <h1>Dự án Tân Công Nghệ</h1>
           <div className="fooder-box">
-            <i class="fas fa-phone"></i>
+            <i className="fas fa-phone"></i>
             <p>0939 877 024</p>
           </div>
           <div className="fooder-box">
             {" "}
-            <i class="fas fa-envelope"></i>
+            <i className="fas fa-envelope"></i>
             <p>saleshelp.vn@gmail.com</p>
           </div>
           <div className="fooder-box">
             {" "}
-            <i class="fas fa-link"></i>
+            <i className="fas fa-link"></i>
             <p>saleshelp.vn</p>
           </div>
         </div>
