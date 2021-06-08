@@ -1,12 +1,8 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Homepage from "./page/Homepage";
+import Routes from "./routes/Routes";
 function App() {
-  return (
-    <div>
-      <Homepage />
-    </div>
-  );
+  return <Routes />;
 }
 
 export default App;

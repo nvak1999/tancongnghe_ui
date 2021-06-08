@@ -1,11 +1,13 @@
 import React from "react";
-import Body from "../component/Body";
+import Content from "../component/Content";
+import Feature from "../component/Feature";
 import Header from "../component/Header";
 const HomePage = () => {
   return (
     <div>
       <Header />
-      <Body />
+      <Content />
+      <Feature />
     </div>
   );
 };
