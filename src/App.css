@@ -146,7 +146,7 @@
   align-self: flex-end;
 }
 .box_bar {
-  width: 278px;
+  width: 100%;
   margin-left: 0px;
   display: flex;
   justify-content: space-between;
