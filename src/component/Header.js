@@ -6,7 +6,7 @@ const Header = () => {
       <img src="/picture/WEB12.png" alt="" />
       <div className="header_left">
         <Link className="link-header">Trang chủ</Link>
-        <Link to="/homepage" className="link-header">
+        <Link to="/login" className="link-header">
           Đăng nhập
         </Link>
       </div>

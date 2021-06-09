@@ -7,13 +7,14 @@ import Customerpage from "../page/Customerpage";
 import Loginpage from "../page/Loginpage";
 import State1 from "../page/RegisterPage/State1";
 import State2 from "../page/RegisterPage/State2";
-import Homepage from "../page/Homepage";
+import HomePage from "../page/Homepage";
 import Dashboard from "../page/Dashboard";
-const PublicLayout = () => {
+
+const Homepage = () => {
   return (
     <div>
       <Switch>
-        <Route exact path="/" component={Homepage} />
+        <Route exact path="/" component={HomePage} />
         <Route exact path="/dashboard" component={Dashboard} />
         <Route exact path="/login" component={Loginpage} />
         <Route exact path="/work" component={Workpage} />
@@ -26,4 +27,4 @@ const PublicLayout = () => {
   );
 };
 
-export default PublicLayout;
+export default Homepage;

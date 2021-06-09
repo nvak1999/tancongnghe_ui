@@ -1,12 +1,11 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-import PublicLayout from "./PublicLayout";
-import Homepage from "../page/Homepage";
+import Homepage from "./Homepage";
 const Routes = () => {
   return (
     <div>
       <Switch>
-        <Route path="/" component={PublicLayout} />
+        <Route path="/" component={Homepage} />
       </Switch>
     </div>
   );
