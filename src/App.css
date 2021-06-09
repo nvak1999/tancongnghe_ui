@@ -102,7 +102,7 @@
   background-color: rgba(128, 128, 128, 0.171);
 }
 .workpage img {
-  width: 100%;
+  width: 70%;
 }
 /* ------------------------------------- */
 .functionBar {
@@ -121,7 +121,7 @@
 .img-bar {
   width: 90%;
   height: 50px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 .functionBar img {
   width: 95%;
