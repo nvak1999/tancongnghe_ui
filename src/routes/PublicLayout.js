@@ -16,7 +16,6 @@ const PublicLayout = () => {
       <Switch>
         <Route exact path="/" component={Homepage} />
         <Route exact path="/dashboard" component={Dashboard} />
-        <Route exact path="/homepage" component={Loginpage} />
         <Route exact path="/login" component={Loginpage} />
         <Route exact path="/work" component={Workpage} />
         <Route exact path="/customer" component={Customerpage} />
