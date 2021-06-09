@@ -27,7 +27,7 @@ const State2 = () => {
             <h3>3</h3>
           </div>
         </div>
-        <h1>TÀI KHOẢN</h1>
+        <h1>THÔNG TIN</h1>
         <div>
           <label id="label1">
             <i class="fas fa-user-tag"></i>Vai trò hiện tại của bạn là gì?
