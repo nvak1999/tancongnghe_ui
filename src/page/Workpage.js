@@ -1,11 +1,11 @@
 import React from "react";
 import Functionbar from "../component/FuntionBar";
-import TableWork from "../component/TableWork";
+
 const Workpage = () => {
   return (
     <div className="workpage">
       <Functionbar />
-      <TableWork />
+      <img src="/picture/dashboard1.jpg" alt="" />
     </div>
   );
 };
