@@ -101,14 +101,17 @@
   display: flex;
   background-color: rgba(128, 128, 128, 0.171);
 }
-.workpage img {
+/* .workpage img {
   width: 83%;
-}
+} */
 /* ------------------------------------- */
+.link-profile img {
+  width: 100%;
+}
 .functionBar {
   background-color: rgba(0, 0, 0, 0.925);
   color: rgba(255, 255, 255, 0.801);
-  width: 17%;
+  width: 21%;
   display: flex;
   align-items: flex-start;
   flex-direction: column;

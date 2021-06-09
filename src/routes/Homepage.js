@@ -18,6 +18,7 @@ import SalesManager from "../page/DataPage/SalesManager";
 import Seting from "../page/DataPage/Setting";
 import Technology from "../page/DataPage/Technology";
 import Upgrade from "../page/DataPage/Upgrade";
+import Profile from "../page/DataPage/Profile";
 
 const Homepage = () => {
   return (
@@ -40,6 +41,7 @@ const Homepage = () => {
         <Route exact path="/seting" component={Seting} />
         <Route exact path="/technology" component={Technology} />
         <Route exact path="/upgrade" component={Upgrade} />
+        <Route exact path="/profile" component={Profile} />
       </Switch>
     </div>
   );
