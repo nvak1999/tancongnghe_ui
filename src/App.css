@@ -349,3 +349,182 @@ body {
 .fooder-box2 i {
   margin-right: 8px;
 }
+
+.register-state {
+}
+.box-register {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-color: rgb(255, 255, 255);
+  transform: translate(-50%, -50%);
+  border-radius: 3px;
+  padding: 50px 50px;
+  margin-top: 90px;
+  width: 30%;
+}
+.box-register i {
+  margin-right: 10px;
+}
+
+.state-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+hr {
+  width: 25%;
+}
+
+.state-box1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.state-box1 p {
+  margin: 0;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: auto;
+}
+.state-box1 h3 {
+  margin: 0;
+  border-radius: 16px;
+  border: 1px solid gray;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+}
+.state-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: -30px;
+  margin-right: -30px;
+  color: gray;
+}
+.state-name p {
+  width: 100px;
+  text-align: center;
+}
+#label1 {
+  font-size: 16px;
+}
+#input1 {
+  font-size: 20px;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+
+.box-register h1 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+#button1 {
+  height: 70px;
+  font-size: 20px;
+}
+
+.select {
+  position: relative;
+  min-width: 200px;
+}
+.select svg {
+  position: absolute;
+  right: 12px;
+  top: calc(50% - 3px);
+  width: 10px;
+  height: 6px;
+  stroke-width: 2px;
+  stroke: #9098a9;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  pointer-events: none;
+}
+.select select {
+  -webkit-appearance: none;
+  padding: 7px 40px 7px 12px;
+  width: 100%;
+  border: 1px solid #e8eaed;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0 1px 3px -2px #9098a9;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 16px;
+  transition: all 150ms ease;
+}
+.select select:required:invalid {
+  color: #5a667f;
+}
+.select select option {
+  color: #223254;
+}
+.select select option[value=""][disabled] {
+  display: none;
+}
+.select select:focus {
+  outline: none;
+  border-color: green;
+  box-shadow: 0 0 0 2px rgba(0, 119, 255, 0.2);
+}
+.select select:hover + svg {
+  stroke: #07f;
+}
+.sprites {
+  position: absolute;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  user-select: none;
+}
+#slct {
+  margin-top: 13px;
+  width: 180px;
+  margin-right: 0;
+}
+
+.phone-number {
+  display: flex;
+  justify-content: space-around;
+}
+#option1 {
+  display: flex;
+  justify-content: space-between;
+}
+#checkbox1 {
+  height: 20px;
+  width: 20px;
+}
+#checkbox2 {
+  font-size: 15px;
+}
+#green1 {
+  color: green;
+  border: 2px solid green;
+  display: flex;
+}
+#green1 i {
+  margin-left: 10px;
+}
+#label2 {
+  margin-top: 10px;
+}
+#slct2 {
+  margin-top: 13px;
+  width: 100%;
+  margin-right: 0;
+}
+#role2 {
+  margin-top: 60px;
+}
+#button2 {
+  margin-top: 100px;
+  height: 70px;
+  margin-bottom: 20px;
+}

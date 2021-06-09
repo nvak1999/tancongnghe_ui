@@ -7,7 +7,7 @@ const Loginpage = () => {
         <img src="/picture/WEB12.png" alt="" />
         <div className="register">
           <p>Bạn chưa có tài khoản?</p>
-          <Link to="/register" className="register_link">
+          <Link to="/register/state1" className="register_link">
             Đăng kí
           </Link>
         </div>
