@@ -8,13 +8,13 @@ import Loginpage from "../page/Loginpage";
 import State1 from "../page/RegisterPage/State1";
 import State2 from "../page/RegisterPage/State2";
 import State3 from "../page/RegisterPage/State3";
-import Homepage from "../page/Homepage";
+
 const PublicLayout = () => {
   return (
     <div>
       <Switch>
         <Route exact path="/" component={Loginpage} />
-        <Route exact path="/homepage" component={Homepage} />
+        <Route exact path="/homepage" component={Loginpage} />
         <Route exact path="/login" component={Loginpage} />
         <Route exact path="/work" component={Workpage} />
         <Route exact path="/customer" component={Customerpage} />
