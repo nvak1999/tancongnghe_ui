@@ -7,7 +7,6 @@ import Customerpage from "../page/Customerpage";
 import Loginpage from "../page/Loginpage";
 import State1 from "../page/RegisterPage/State1";
 import State2 from "../page/RegisterPage/State2";
-
 import Homepage from "../page/Homepage";
 import Dashboard from "../page/Dashboard";
 const PublicLayout = () => {
