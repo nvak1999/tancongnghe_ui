@@ -134,6 +134,7 @@
   color: white;
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 .functionBar-box:hover {
   color: rgb(0, 172, 172);
