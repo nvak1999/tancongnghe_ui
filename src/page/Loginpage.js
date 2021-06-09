@@ -12,25 +12,30 @@ const Loginpage = () => {
           </Link>
         </div>
       </div>
-      <div className="box">
-        <form>
-          <span className="text-center">login</span>
-          <div className="input-container">
-            <input type="mail" required="" />
-            <label>Email</label>
-          </div>
-          <div className="input-container">
-            <input type="password" required="" />
-            <label>Mật khẩu</label>
-          </div>
-          <div className="checkbox-container">
-            <input type="checkbox" required="" />
-            <label>Nhớ Mật khẩu</label>
-          </div>
-          <button type="button" className="btn">
-            Đăng nhập
+      <div className="login-box">
+        {" "}
+        <h1>ĐĂNG NHẬP</h1>
+        <div className="input-container">
+          <input type="mail" required="" id="input1" />
+          <label id="label1">
+            <i class="fas fa-envelope"></i>Email
+          </label>
+        </div>
+        <div className="input-container">
+          <input type="password" required="" id="input1" />
+          <label id="label1">
+            <i class="fas fa-key"></i>Mật khẩu
+          </label>
+        </div>
+        <div className="checkbox-container">
+          <input type="checkbox" required="" id="checkbox1" />
+          <label id="checkbox2">Nhớ mật khẩu</label>
+        </div>
+        <Link to="/homepage">
+          <button type="button" className="btn" id="buttonLogin">
+            ĐĂNG NHẬP
           </button>
-        </form>
+        </Link>
       </div>
       <div className="space"></div>
       <div className="fooder-login">

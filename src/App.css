@@ -241,7 +241,7 @@ body {
   margin-top: 90px;
 }
 .input-container {
-  font-size: 18px;
+  font-size: 20px;
   position: relative;
   margin-bottom: 25px;
 }
@@ -249,7 +249,7 @@ body {
   position: absolute;
   top: 0px;
   left: 0px;
-  font-size: 16px;
+  font-size: 20px;
   color: rgb(0, 0, 0);
   pointer-events: none;
   transition: all 0.5s ease-in-out;
@@ -309,7 +309,7 @@ body {
   display: flex;
 }
 .space {
-  height: 700px;
+  height: 800px;
 }
 
 .fooder-login {
@@ -527,4 +527,28 @@ hr {
   margin-top: 100px;
   height: 70px;
   margin-bottom: 20px;
+}
+.login-box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-color: rgb(255, 255, 255);
+  transform: translate(-50%, -50%);
+  border-radius: 3px;
+  padding: 50px 50px;
+  margin-top: 140px;
+  width: 30%;
+}
+.login-box h1 {
+  text-align: center;
+  margin: 50px;
+  margin-bottom: 100px;
+}
+.login-box i {
+  margin-right: 10px;
+}
+#buttonLogin {
+  height: 70px;
+  font-size: 20px;
+  margin-top: 80px;
 }
