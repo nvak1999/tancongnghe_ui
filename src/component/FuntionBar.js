@@ -6,7 +6,7 @@ const FuntionBar = () => {
       <div className="img-bar">
         <img src="/picture/WEB13.png" alt="" />
       </div>
-      <Link className="functionBar-box">
+      <Link to="/dashboard" className="functionBar-box">
         <div className="box_bar">
           <div className="i_left">
             <i class="fas fa-tachometer-alt"></i>
@@ -14,17 +14,16 @@ const FuntionBar = () => {
           </div>
         </div>
       </Link>
-      <Link className="functionBar-box">
+      <Link to="/salesManager" className="functionBar-box">
         <div className="box_bar">
           <div className="i_left">
             <i class="fas fa-users"></i>
             <p>Quản lí bán hàng</p>
           </div>
-
           <i class="fas fa-angle-left"></i>
         </div>
       </Link>
-      <Link className="functionBar-box">
+      <Link to="/referral" className="functionBar-box">
         <div className="box_bar">
           <div className="i_left">
             <i class="fas fa-shopping-basket"></i>
@@ -33,7 +32,7 @@ const FuntionBar = () => {
           <i class="fas fa-angle-left"></i>
         </div>
       </Link>
-      <Link className="functionBar-box">
+      <Link to="/expert" className="functionBar-box">
         <div className="box_bar">
           <div className="i_left">
             <i class="fas fa-shopping-cart"></i>
@@ -42,7 +41,7 @@ const FuntionBar = () => {
           <i class="fas fa-angle-left"></i>
         </div>
       </Link>
-      <Link className="functionBar-box">
+      <Link to="/technology" className="functionBar-box">
         <div className="box_bar">
           <div className="i_left">
             <i class="fas fa-book"></i>
@@ -51,7 +50,7 @@ const FuntionBar = () => {
           <i class="fas fa-angle-left"></i>
         </div>
       </Link>
-      <Link className="functionBar-box">
+      <Link to="/report" className="functionBar-box">
         <div className="box_bar">
           <div className="i_left">
             <i class="fas fa-shopping-bag"></i>
@@ -60,7 +59,7 @@ const FuntionBar = () => {
           <i class="fas fa-angle-left"></i>
         </div>
       </Link>
-      <Link className="functionBar-box">
+      <Link to="/seting" className="functionBar-box">
         <div className="box_bar">
           <div className="i_left">
             <i class="fab fa-wpforms"></i>
@@ -69,7 +68,7 @@ const FuntionBar = () => {
           <i class="fas fa-angle-left"></i>
         </div>
       </Link>
-      <Link className="functionBar-box">
+      <Link to="/notification" className="functionBar-box">
         <div className="box_bar">
           <div className="i_left">
             <i class="fas fa-bell"></i>
@@ -78,7 +77,7 @@ const FuntionBar = () => {
           <i class="fas fa-angle-left"></i>
         </div>
       </Link>
-      <Link className="functionBar-box">
+      <Link to="/upgrade" className="functionBar-box">
         <div className="box_bar">
           <div className="i_left">
             <i class="fas fa-tablet-alt"></i>
