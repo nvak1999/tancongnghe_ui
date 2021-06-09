@@ -5,11 +5,10 @@ const Header = () => {
     <div className="header_page">
       <img src="/picture/WEB12.png" alt="" />
       <div className="header_left">
-        <Link className="link-header">Home Page</Link>
-        <Link className="link-header">About SalesHelp.vn</Link>
-        <Link className="link-header">publication</Link>
-        <Link className="link-header">Activity</Link>
-        <Link className="link-header">Contact</Link>
+        <Link className="link-header">Trang chủ</Link>
+        <Link to="/homepage" className="link-header">
+          Đăng nhập
+        </Link>
       </div>
     </div>
   );

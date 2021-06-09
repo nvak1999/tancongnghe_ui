@@ -7,7 +7,6 @@ const HomePage = () => {
     <div>
       <Header />
       <Content />
-      <Feature />
     </div>
   );
 };

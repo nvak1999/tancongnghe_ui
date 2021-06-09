@@ -8,7 +8,7 @@ const Loginpage = () => {
         <div className="register">
           <p>Bạn chưa có tài khoản?</p>
           <Link to="/register/state1" className="register_link">
-            Đăng kí
+            ĐĂNG KÍ
           </Link>
         </div>
       </div>
@@ -31,7 +31,7 @@ const Loginpage = () => {
           <input type="checkbox" required="" id="checkbox1" />
           <label id="checkbox2">Nhớ mật khẩu</label>
         </div>
-        <Link to="/homepage">
+        <Link to="/dashboard">
           <button type="button" className="btn" id="buttonLogin">
             ĐĂNG NHẬP
           </button>

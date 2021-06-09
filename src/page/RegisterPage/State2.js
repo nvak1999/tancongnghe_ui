@@ -7,73 +7,99 @@ const State2 = () => {
         <img src="/picture/WEB12.png" alt="" />
       </div>
       <div class="box-register">
-        <div className="state-name">
-          <p>Tài khoản</p>
-          <p>Thông tin</p>
-          <p>Công ty</p>
+        <div className="mother-box">
+          <div id="state-box1">
+            {" "}
+            <div className="state-name">
+              <p>Tài khoản</p>
+              <p>Thông tin</p>
+            </div>
+            <div className="state-box">
+              <div className="state-box1">
+                <h3 id="green1">
+                  <i class="fas fa-check"></i>
+                </h3>
+              </div>
+              <hr />
+              <div className="state-box1">
+                <h3>2</h3>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className="state-box">
-          <div className="state-box1">
-            <h3 id="green1">
-              <i class="fas fa-check"></i>
-            </h3>
-          </div>
-          <hr />
-          <div className="state-box1">
-            <h3>2</h3>
-          </div>
-          <hr />
-          <div className="state-box1">
-            <h3>3</h3>
-          </div>
-        </div>
+
         <h1>THÔNG TIN</h1>
         <div>
           <label id="label1">
-            <i class="fas fa-user-tag"></i>Vai trò hiện tại của bạn là gì?
+            <i class="fas fa-user-tag"></i> Vị trí công việc
           </label>
         </div>
         <div id="label2">
           <label class="select" for="slct2">
             <select id="slct2" required="required">
               <option value="" disabled="disabled" selected="selected">
-                Vai trò của bạn
+                Chuyên viên kinh doanh
               </option>
-              <option value="#">Đại diện bán hàng</option>
-              <option value="#">Quản lí kinh doanh</option>
-              <option value="#">VP / Giám đốc điều hành </option>
-              <option value="#">Quản trị viên </option>
-              <option value="#">Tài chính </option>
-              <option value="#">Người tiếp thị </option>
+              <option value="#">Chuyên viên kinh doanh</option>
+              <option value="#">Trưởng nhóm kinh doanh</option>
+              <option value="#">Quản lí vùng</option>
+              <option value="#">Trưởng phong kinh doanh </option>
+              <option value="#">Giám đốc kinh doanh </option>
+              <option value="#">Sales admin </option>
               <option value="#">Khác </option>
             </select>
           </label>
         </div>
         <div id="role2">
           <label id="label1">
-            <i class="fas fa-tools"></i>Kinh nghiệm của bạn với các công cụ bán
-            hàng là gì?
+            <i class="fas fa-briefcase"></i>Lĩnh vực bán hàng
           </label>
         </div>
         <div id="label2">
           <label class="select" for="slct2">
             <select id="slct2" required="required">
               <option value="" disabled="disabled" selected="selected">
-                Kinh nghiệm của bạn
+                Chọn lĩnh vực
               </option>
+              <option value="#">Phần mềm phát triển ứng dụng</option>
+              <option value="#">Sức khoẻ</option>
+              <option value="#">Giáo dục và đào tạo</option>
+              <option value="#">Địa ốc</option>
+              <option value="#">Công ty quảng cáo</option>
+              <option value="#">Dịch vụ tài chính hoặc tính dụng</option>
               <option value="#">
-                Tôi chưa sử dụng bất kì công cụ bán hàng nào trước đây
+                Tin tức phương tiện truyền thông ấn phẩm
               </option>
-              <option value="#">
-                Tôi sử dụng bảng tính để theo giỏi dữ liệu bán hàng của mình
-              </option>
-              <option value="#">Tôi đã sử dụng các công cụ trước đây</option>
+              <option value="#">Chế tạo</option>
+              <option value="#">Dịch vụ IT</option>
+              <option value="#">Tư vấn</option>
+              <option value="#">Xây dựng</option>
+              <option value="#">Thương mại</option>
+              <option value="#">Khác</option>
             </select>
           </label>
         </div>
-        <Link to="/register/state3">
+        <div id="role2">
+          <label id="label1">
+            <i class="fas fa-user-tie"></i>Đối tượng khách hàng
+          </label>
+        </div>
+        <div id="label2">
+          <label class="select" for="slct2">
+            <select id="slct2" required="required">
+              <option value="" disabled="disabled" selected="selected">
+                Chọn đối tượng
+              </option>
+              <option value="#">Cá nhân</option>
+              <option value="#">Doanh nghiệp</option>
+              <option value="#">Nhà nước</option>
+              <option value="#">Khác</option>
+            </select>
+          </label>
+        </div>
+        <Link to="/login">
           <button type="button" className="btn" id="button2">
-            Bước tiếp theo
+            Sử dụng Saleshelp.vn
           </button>
         </Link>
       </div>

@@ -7,24 +7,25 @@ const State1 = () => {
         <img src="/picture/WEB12.png" alt="" />
       </div>
       <div class="box-register">
-        <div className="state-name">
-          <p>Tài khoản</p>
-          <p>Thông tin</p>
-          <p>Công ty</p>
+        <div className="mother-box">
+          <div id="state-box1">
+            {" "}
+            <div className="state-name">
+              <p>Tài khoản</p>
+              <p>Thông tin</p>
+            </div>
+            <div className="state-box">
+              <div className="state-box1">
+                <h3 id="green1">1</h3>
+              </div>
+              <hr />
+              <div className="state-box1">
+                <h3>2</h3>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className="state-box">
-          <div className="state-box1">
-            <h3 id="green1">1</h3>
-          </div>
-          <hr />
-          <div className="state-box1">
-            <h3>2</h3>
-          </div>
-          <hr />
-          <div className="state-box1">
-            <h3>3</h3>
-          </div>
-        </div>
+
         <h1>TÀI KHOẢN</h1>
         <div className="input-container">
           <input type="mail" required="" id="input1" />
@@ -49,7 +50,7 @@ const State1 = () => {
           <label class="select" for="slct" id="label3">
             <select id="slct" required="required">
               <option value="" disabled="disabled" selected="selected">
-                Chọn vùng
+                Việt Nam&#160;&#160;&#160; +84
               </option>
               <option value="#">Canada &#160;&#160;&#160; +1</option>
               <option value="#">Mỹ &#160;&#160;&#160; +1</option>
@@ -76,9 +77,7 @@ const State1 = () => {
         {/* ------ */}
         <div className="checkbox-container">
           <input type="checkbox" required="" id="checkbox1" />
-          <label id="checkbox2">
-            Nhận tin tức và mẹo bán hàng thường xuyên từ SalesHelp
-          </label>
+          <label id="checkbox2">Nhận thông tin cập nhật từ Saleshelp.vn</label>
         </div>
         <Link to="/register/state2">
           <button type="button" className="btn" id="button1">
