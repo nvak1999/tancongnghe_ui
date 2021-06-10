@@ -1,13 +1,15 @@
 import React from "react";
 import Functionbar from "../../component/FuntionBar";
 import { Link } from "react-router-dom";
+import HeaderProfile from "../../component/HeaderProfile";
 const Dashboard = () => {
   return (
     <div className="workpage">
       <Functionbar />
-      <Link to="/profile" className="link-profile">
+      <div className="content-tag">
+        <HeaderProfile />
         <img src="/picture/dashboard.jpg" alt="" />
-      </Link>
+      </div>
     </div>
   );
 };
