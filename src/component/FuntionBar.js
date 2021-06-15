@@ -58,7 +58,9 @@ const FuntionBar = () => {
               </Link>
             </div>
           </div>
-          <i onClick={() => change()} class="fas fa-angle-left"></i>
+          <Link className="box3">
+            <i onClick={() => change()} class="fas fa-angle-left"></i>
+          </Link>
         </div>
       </div>
 
@@ -90,7 +92,9 @@ const FuntionBar = () => {
               </Link>
             </div>
           </div>
-          <i onClick={() => change2()} class="fas fa-angle-left"></i>
+          <Link className="box3">
+            <i onClick={() => change2()} class="fas fa-angle-left"></i>
+          </Link>
         </div>
       </div>
 
@@ -114,7 +118,9 @@ const FuntionBar = () => {
               </Link>
             </div>
           </div>
-          <i onClick={() => change3()} class="fas fa-angle-left"></i>
+          <Link className="box3">
+            <i onClick={() => change3()} class="fas fa-angle-left"></i>
+          </Link>
         </div>
       </div>
       <Link to="/report" className="functionBar-box">
