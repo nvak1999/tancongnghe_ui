@@ -2,16 +2,16 @@ import React from "react";
 import Functionbar from "../../component/FuntionBar";
 import { Link } from "react-router-dom";
 import HeaderProfile from "../../component/HeaderProfile";
-const SalesManager = () => {
+const Traoreferral = () => {
   return (
     <div className="workpage">
       <Functionbar />
-      <Link className="link-profile">
+      <Link to="/profile" className="link-profile">
         <HeaderProfile></HeaderProfile>
-        <img src="/picture/manager.png" alt="" />{" "}
+        <img src="/picture/TraoReferral.png" alt="" />
       </Link>
     </div>
   );
 };
 
-export default SalesManager;
+export default Traoreferral;

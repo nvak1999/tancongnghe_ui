@@ -19,7 +19,10 @@ import Seting from "../page/DataPage/Setting";
 import Technology from "../page/DataPage/Technology";
 import Upgrade from "../page/DataPage/Upgrade";
 import Profile from "../page/DataPage/Profile";
-
+import Nhantuvan from "../page/DataPage/Nhantuvan";
+import KHcanhan from "../page/DataPage/KHcanhan";
+import KHdoanhnghiep from "../page/DataPage/KHdoanhnghiep";
+import TraoReferral from "../page/DataPage/Traoreferral";
 const Homepage = () => {
   return (
     <div>
@@ -42,6 +45,10 @@ const Homepage = () => {
         <Route exact path="/technology" component={Technology} />
         <Route exact path="/upgrade" component={Upgrade} />
         <Route exact path="/profile" component={Profile} />
+        <Route exact path="/nhan" component={Nhantuvan} />
+        <Route exact path="/canhan" component={KHcanhan} />
+        <Route exact path="/doanhnghiep" component={KHdoanhnghiep} />
+        <Route exact path="/Trao" component={TraoReferral} />
       </Switch>
     </div>
   );
