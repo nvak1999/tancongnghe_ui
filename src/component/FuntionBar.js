@@ -51,6 +51,11 @@ const FuntionBar = () => {
                   Nhận Tư vấn
                 </p>
               </Link>
+              <Link to="/expert" className="box3">
+                <p className={count} id="tt3">
+                  Tư vấn
+                </p>
+              </Link>
             </div>
           </div>
           <i onClick={() => change()} class="fas fa-angle-left"></i>
@@ -136,7 +141,7 @@ const FuntionBar = () => {
           </div>
         </div>
       </Link>
-      <Link to="/upgrade" className="functionBar-box">
+      <Link to="/profile" className="functionBar-box">
         <div className="box_bar">
           <div className="i_left">
             <i class="fas fa-tablet-alt"></i>
